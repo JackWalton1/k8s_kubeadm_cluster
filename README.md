@@ -84,9 +84,6 @@ The network used to assign IP addresses to pods is `10.244.0.0/16`.
 The network used to assign IP addresses to Cluster IP services is `10.96.0.0/16`.
  This should not overlap any of the other network settings.
 
-### Command to run cluster?:
-
-
 ### CNI
 On a newly created Kubernetes cluster, the Weave Net CNI pluging can be installed by running the following command:
 
